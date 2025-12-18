@@ -1,0 +1,27 @@
+// Colors
+$color-bg-dark: #0A0A0A;
+$color-bg-darker: #050505;
+$color-text-main: #FFFFFF;
+$color-text-muted: #888888;
+
+// Neons
+$neon-blue: #00D4FF;
+$neon-orange: #FF6B35;
+$neon-green: #32CD32;
+$neon-purple: #9D4EDD;
+$neon-pink: #FF1493;
+
+// Chrome / Metals
+$chrome-gradient: linear-gradient(135deg, #e0e0e0 0%, #ffffff 50%, #a0a0a0 51%, #e0e0e0 100%);
+$metal-dark: #2a2a2a;
+
+// Typography
+$font-display: 'Press Start 2P', cursive;
+$font-body: 'VT323', monospace;
+$font-mono: 'VT323', monospace; // Unified pixel font
+
+// Z-Index
+$z-index-cursor: 9999;
+$z-index-splash: 9000;
+$z-index-nav: 1000;
+$z-index-modal: 2000;

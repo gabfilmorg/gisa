@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: $color-bg-dark;
+  color: $color-text-main;
+  font-family: $font-body;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: none; // Hiding default cursor for custom one
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+// Utility Classes
+.text-neon-blue { color: $neon-blue; text-shadow: 0 0 10px rgba($neon-blue, 0.7); }
+.text-neon-orange { color: $neon-orange; text-shadow: 0 0 10px rgba($neon-orange, 0.7); }
+.text-neon-green { color: $neon-green; text-shadow: 0 0 10px rgba($neon-green, 0.7); }
+
+.display-font {
+  font-family: $font-display;
+  text-transform: uppercase;
+}
+
+.chrome-text {
+  background: $chrome-gradient;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: $color-bg-darker;
+}
+::-webkit-scrollbar-thumb {
+  background: $metal-dark;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $neon-blue;
+}
