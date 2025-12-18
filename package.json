@@ -11,9 +11,9 @@
     "check": "tsc -b --noEmit"
   },
   "dependencies": {
-    "@react-three/drei": "^10.7.7",
-    "@react-three/fiber": "^8.18.0",
-    "@types/three": "^0.182.0",
+    "@react-three/drei": "9.102.6",
+    "@react-three/fiber": "8.16.1",
+    "@types/three": "0.163.0",
     "clsx": "^2.1.1",
     "gsap": "^3.14.2",
     "lucide-react": "^0.511.0",
@@ -22,7 +22,7 @@
     "react-router-dom": "^7.3.0",
     "sass": "^1.97.0",
     "tailwind-merge": "^3.0.2",
-    "three": "^0.182.0",
+    "three": "0.163.0",
     "zustand": "^5.0.9"
   },
   "devDependencies": {
